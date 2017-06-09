@@ -1,14 +1,14 @@
 PODS:
-  - UMengUShare/Core (6.4.3):
+  - UMengUShare/Core (6.4.4):
     - UMengUShare/Network
-  - UMengUShare/Network (6.4.3)
-  - UMengUShare/Social/ReducedQQ (6.4.3):
+  - UMengUShare/Network (6.4.4)
+  - UMengUShare/Social/ReducedQQ (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/ReducedSina (6.4.3):
+  - UMengUShare/Social/ReducedSina (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/ReducedWeChat (6.4.3):
+  - UMengUShare/Social/ReducedWeChat (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/UI (6.4.3):
+  - UMengUShare/UI (6.4.4):
     - UMengUShare/Core
 
 DEPENDENCIES:
@@ -18,8 +18,8 @@ DEPENDENCIES:
   - UMengUShare/UI
 
 SPEC CHECKSUMS:
-  UMengUShare: d39cb682598df87ebdd3c055d03d00eb0102d42c
+  UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
 
-PODFILE CHECKSUM: aa491e51bcc62edc054d3630477f5b0f39383781
+PODFILE CHECKSUM: a80d9289dae4b353f04b88b1e6a5d35a0a2d22e2
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

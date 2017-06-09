@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-UWShareSingleAndSignOn.xcscheme</key>
+		<key>Pods-UWShareAndSingleSignOn.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F3BE22BD3820A461F4681BA2463A627C</key>
+		<key>0119808A6B17BCD7CEA680F5308F6444</key>
 		<dict>
 			<key>primary</key>
 			<true/>

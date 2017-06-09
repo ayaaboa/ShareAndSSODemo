@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C558A1821EEA956500DB02EA /* UWSingleSignOnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C558A1811EEA956500DB02EA /* UWSingleSignOnManager.m */; };
+		C56DA4621EEA8A0600D860C6 /* UWShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C56DA4601EEA8A0600D860C6 /* UWShareManager.m */; };
+		C5BE30561EB09ADF00A8A20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE30551EB09ADF00A8A20A /* main.m */; };
+		C5BE30591EB09ADF00A8A20A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE30581EB09ADF00A8A20A /* AppDelegate.m */; };
+		C5BE305C1EB09ADF00A8A20A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE305B1EB09ADF00A8A20A /* ViewController.m */; };
+		C5BE305F1EB09ADF00A8A20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BE305D1EB09ADF00A8A20A /* Main.storyboard */; };
+		C5BE30611EB09ADF00A8A20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BE30601EB09ADF00A8A20A /* Assets.xcassets */; };
+		C5BE30641EB09ADF00A8A20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BE30621EB09ADF00A8A20A /* LaunchScreen.storyboard */; };
+		CE6747561ABB7FBB9DA6F81E /* libPods-UWShareAndSingleSignOn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C8B0F21C834C383CC2B10 /* libPods-UWShareAndSingleSignOn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F93A5897834725E06E7F48 /* Pods-UWShareAndSingleSignOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWShareAndSingleSignOn.release.xcconfig"; path = "Pods/Target Support Files/Pods-UWShareAndSingleSignOn/Pods-UWShareAndSingleSignOn.release.xcconfig"; sourceTree = "<group>"; };
+		9CB4C1E2850375E53EA103D8 /* Pods-UWShareAndSingleSignOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWShareAndSingleSignOn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UWShareAndSingleSignOn/Pods-UWShareAndSingleSignOn.debug.xcconfig"; sourceTree = "<group>"; };
+		B96C8B0F21C834C383CC2B10 /* libPods-UWShareAndSingleSignOn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UWShareAndSingleSignOn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C558A1801EEA956500DB02EA /* UWSingleSignOnManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWSingleSignOnManager.h; sourceTree = "<group>"; };
+		C558A1811EEA956500DB02EA /* UWSingleSignOnManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWSingleSignOnManager.m; sourceTree = "<group>"; };
+		C56DA4601EEA8A0600D860C6 /* UWShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWShareManager.m; sourceTree = "<group>"; };
+		C56DA4611EEA8A0600D860C6 /* UWShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWShareManager.h; sourceTree = "<group>"; };
+		C5BE30511EB09ADF00A8A20A /* UWShareAndSingleSignOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWShareAndSingleSignOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BE30551EB09ADF00A8A20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5BE30571EB09ADF00A8A20A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5BE30581EB09ADF00A8A20A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5BE305A1EB09ADF00A8A20A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5BE305B1EB09ADF00A8A20A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5BE305E1EB09ADF00A8A20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5BE30601EB09ADF00A8A20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5BE30631EB09ADF00A8A20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5BE30651EB09ADF00A8A20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5BE304E1EB09ADF00A8A20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6747561ABB7FBB9DA6F81E /* libPods-UWShareAndSingleSignOn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67FDEA068F39A1C93E090A69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CB4C1E2850375E53EA103D8 /* Pods-UWShareAndSingleSignOn.debug.xcconfig */,
+				08F93A5897834725E06E7F48 /* Pods-UWShareAndSingleSignOn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFFA5A58D810CEA90841BB29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B96C8B0F21C834C383CC2B10 /* libPods-UWShareAndSingleSignOn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C56DA4631EEA8A1300D860C6 /* UWShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				C56DA4611EEA8A0600D860C6 /* UWShareManager.h */,
+				C56DA4601EEA8A0600D860C6 /* UWShareManager.m */,
+				C558A1801EEA956500DB02EA /* UWSingleSignOnManager.h */,
+				C558A1811EEA956500DB02EA /* UWSingleSignOnManager.m */,
+			);
+			path = UWShareManager;
+			sourceTree = "<group>";
+		};
+		C5BE30481EB09ADF00A8A20A = {
+			isa = PBXGroup;
+			children = (
+				C5BE30531EB09ADF00A8A20A /* UWShareAndSingleSignOn */,
+				C5BE30521EB09ADF00A8A20A /* Products */,
+				67FDEA068F39A1C93E090A69 /* Pods */,
+				AFFA5A58D810CEA90841BB29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5BE30521EB09ADF00A8A20A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE30511EB09ADF00A8A20A /* UWShareAndSingleSignOn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5BE30531EB09ADF00A8A20A /* UWShareAndSingleSignOn */ = {
+			isa = PBXGroup;
+			children = (
+				C56DA4631EEA8A1300D860C6 /* UWShareManager */,
+				C5BE30571EB09ADF00A8A20A /* AppDelegate.h */,
+				C5BE30581EB09ADF00A8A20A /* AppDelegate.m */,
+				C5BE305A1EB09ADF00A8A20A /* ViewController.h */,
+				C5BE305B1EB09ADF00A8A20A /* ViewController.m */,
+				C5BE305D1EB09ADF00A8A20A /* Main.storyboard */,
+				C5BE30601EB09ADF00A8A20A /* Assets.xcassets */,
+				C5BE30621EB09ADF00A8A20A /* LaunchScreen.storyboard */,
+				C5BE30651EB09ADF00A8A20A /* Info.plist */,
+				C5BE30541EB09ADF00A8A20A /* Supporting Files */,
+			);
+			path = UWShareAndSingleSignOn;
+			sourceTree = "<group>";
+		};
+		C5BE30541EB09ADF00A8A20A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE30551EB09ADF00A8A20A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5BE30501EB09ADF00A8A20A /* UWShareAndSingleSignOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BE30681EB09ADF00A8A20A /* Build configuration list for PBXNativeTarget "UWShareAndSingleSignOn" */;
+			buildPhases = (
+				C41EDAC2E764D47AD08C50C3 /* [CP] Check Pods Manifest.lock */,
+				C5BE304D1EB09ADF00A8A20A /* Sources */,
+				C5BE304E1EB09ADF00A8A20A /* Frameworks */,
+				C5BE304F1EB09ADF00A8A20A /* Resources */,
+				DCFA6E757DEBB1FE4CEF5EEA /* [CP] Embed Pods Frameworks */,
+				DAB4C3C6231EF785170857FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UWShareAndSingleSignOn;
+			productName = UWShareSingleAndSignOn;
+			productReference = C5BE30511EB09ADF00A8A20A /* UWShareAndSingleSignOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5BE30491EB09ADF00A8A20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cyb;
+				TargetAttributes = {
+					C5BE30501EB09ADF00A8A20A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V62C28FYB8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C5BE304C1EB09ADF00A8A20A /* Build configuration list for PBXProject "UWShareAndSingleSignOn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5BE30481EB09ADF00A8A20A;
+			productRefGroup = C5BE30521EB09ADF00A8A20A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5BE30501EB09ADF00A8A20A /* UWShareAndSingleSignOn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5BE304F1EB09ADF00A8A20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BE30641EB09ADF00A8A20A /* LaunchScreen.storyboard in Resources */,
+				C5BE30611EB09ADF00A8A20A /* Assets.xcassets in Resources */,
+				C5BE305F1EB09ADF00A8A20A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C41EDAC2E764D47AD08C50C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB4C3C6231EF785170857FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UWShareAndSingleSignOn/Pods-UWShareAndSingleSignOn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFA6E757DEBB1FE4CEF5EEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UWShareAndSingleSignOn/Pods-UWShareAndSingleSignOn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5BE304D1EB09ADF00A8A20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BE305C1EB09ADF00A8A20A /* ViewController.m in Sources */,
+				C56DA4621EEA8A0600D860C6 /* UWShareManager.m in Sources */,
+				C5BE30591EB09ADF00A8A20A /* AppDelegate.m in Sources */,
+				C5BE30561EB09ADF00A8A20A /* main.m in Sources */,
+				C558A1821EEA956500DB02EA /* UWSingleSignOnManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5BE305D1EB09ADF00A8A20A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BE305E1EB09ADF00A8A20A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5BE30621EB09ADF00A8A20A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BE30631EB09ADF00A8A20A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5BE30661EB09ADF00A8A20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5BE30671EB09ADF00A8A20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5BE30691EB09ADF00A8A20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB4C1E2850375E53EA103D8 /* Pods-UWShareAndSingleSignOn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V62C28FYB8;
+				INFOPLIST_FILE = UWShareAndSingleSignOn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uwork.ASDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5BE306A1EB09ADF00A8A20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F93A5897834725E06E7F48 /* Pods-UWShareAndSingleSignOn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V62C28FYB8;
+				INFOPLIST_FILE = UWShareAndSingleSignOn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uwork.ASDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5BE304C1EB09ADF00A8A20A /* Build configuration list for PBXProject "UWShareAndSingleSignOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BE30661EB09ADF00A8A20A /* Debug */,
+				C5BE30671EB09ADF00A8A20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BE30681EB09ADF00A8A20A /* Build configuration list for PBXNativeTarget "UWShareAndSingleSignOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BE30691EB09ADF00A8A20A /* Debug */,
+				C5BE306A1EB09ADF00A8A20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5BE30491EB09ADF00A8A20A /* Project object */;
+}

@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F6C1F8F9996342D56D8207009280C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8CE4A119ABDC36417719FCD7277A4F74 /* Pods-UWShareSingleAndSignOn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B1E86564C58056165FC93E7081B6A /* Pods-UWShareSingleAndSignOn-dummy.m */; };
+		884A80703C60E342736CACE9FC17D9FC /* Pods-UWShareAndSingleSignOn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26D7FA5482400C291B2D51B8483F92 /* Pods-UWShareAndSingleSignOn-dummy.m */; };
+		A83090B4F274E22D9761C949E2EFD5A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0227AE6112B797756E2C13E9E4AF861C /* Pods-UWShareAndSingleSignOn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UWShareAndSingleSignOn-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0F1AB06E7BA42F29364571CCD4F545CD /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialCore.framework; path = UShareSDK/UMSocialSDK/UMSocialCore.framework; sourceTree = "<group>"; };
+		19B35BA458DD98875AE415BEC2C99698 /* libPods-UWShareAndSingleSignOn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UWShareAndSingleSignOn.a"; path = "libPods-UWShareAndSingleSignOn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A665D593057CD594A720821FBCE1A9F /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKPromptResources.bundle; path = UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
-		2E21BD614F636E8415A2BC57EF1C2F3D /* Pods-UWShareSingleAndSignOn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UWShareSingleAndSignOn-acknowledgements.plist"; sourceTree = "<group>"; };
+		2ECE17C774748F68B49F4158E80E0B17 /* Pods-UWShareAndSingleSignOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWShareAndSingleSignOn.release.xcconfig"; sourceTree = "<group>"; };
+		492DB70DE704F094CF39F102168258E6 /* Pods-UWShareAndSingleSignOn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWShareAndSingleSignOn-frameworks.sh"; sourceTree = "<group>"; };
+		51E19E966B13924E65D34AC956C50434 /* Pods-UWShareAndSingleSignOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWShareAndSingleSignOn.debug.xcconfig"; sourceTree = "<group>"; };
 		55B7600B4D8C177CBBD79310F0A98A30 /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UShareSDK/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
-		58739EF78617172E1F7E55E72EE1F8C4 /* Pods-UWShareSingleAndSignOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWShareSingleAndSignOn.debug.xcconfig"; sourceTree = "<group>"; };
 		627A29E0FD4CDAC4152E9E6D9EB6F7C7 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UShareSDK/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C26D7FA5482400C291B2D51B8483F92 /* Pods-UWShareAndSingleSignOn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UWShareAndSingleSignOn-dummy.m"; sourceTree = "<group>"; };
 		700A0DB346210725387F2753FC15D7E0 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UShareSDK/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
 		72C4C10B8D99CD93BD56A89B65241240 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UShareSDK/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
-		754B1E86564C58056165FC93E7081B6A /* Pods-UWShareSingleAndSignOn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UWShareSingleAndSignOn-dummy.m"; sourceTree = "<group>"; };
 		8C3EE3FBD8D22ACF583401E3953E7F14 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UShareSDK/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E3FD001073F6D16D80ADEBDC57E1FD /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UShareSDK/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
-		948DF1A96C06ED3CEF890A5817F814B2 /* libPods-UWShareSingleAndSignOn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UWShareSingleAndSignOn.a"; path = "libPods-UWShareSingleAndSignOn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A28A5B92D48514DA646BBD1EF1E11DFA /* Pods-UWShareSingleAndSignOn-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWShareSingleAndSignOn-resources.sh"; sourceTree = "<group>"; };
-		ACEA98BD500BFFC64CBDE6B0B0F28846 /* Pods-UWShareSingleAndSignOn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UWShareSingleAndSignOn-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9607DCA9D00E3D3A80D45D66D1B3ED59 /* Pods-UWShareAndSingleSignOn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UWShareAndSingleSignOn-acknowledgements.plist"; sourceTree = "<group>"; };
 		C671D709C776C57FAE192477FBE191F6 /* libUMSocialLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialLog.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a; sourceTree = "<group>"; };
-		C7DFD8AB0BB33338D5EA0334B4A87DC7 /* Pods-UWShareSingleAndSignOn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWShareSingleAndSignOn-frameworks.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC7470BD0BEF37F9A591B700866147F4 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UShareSDK/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
-		D7335ACE1FC452E52F759C4AA788DB27 /* Pods-UWShareSingleAndSignOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWShareSingleAndSignOn.release.xcconfig"; sourceTree = "<group>"; };
+		DDE12BFAC68E8E3140071D4B0A280B0E /* Pods-UWShareAndSingleSignOn-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWShareAndSingleSignOn-resources.sh"; sourceTree = "<group>"; };
 		F2896618952AA98F26C67C4185DDF579 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialNetwork.framework; path = UShareSDK/UMSocialSDK/UMSocialNetwork.framework; sourceTree = "<group>"; };
 		FB2D2029F882FFD36AF0EAC8B628A807 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UShareSDK/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EBAABD0D26CEDF200A5970543087DA4 /* Frameworks */ = {
+		CD0B0D97B1D0B6EE3EC4B9B85D3DE1BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6C1F8F9996342D56D8207009280C03 /* Foundation.framework in Frameworks */,
+				A83090B4F274E22D9761C949E2EFD5A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,14 +65,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		2334DB51270C646F540D95BDC8C94B31 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D0D708D81E781FFA480DC24B81AB5AC /* Pods-UWShareSingleAndSignOn */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		2F1C38545BE286F7504AEAA7432BA776 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +81,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4E719FCFFA3EEBD9867AEA331D51314F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FBFAF46916FEAA9477D7C606500919C /* Pods-UWShareAndSingleSignOn */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		5EC7D3E2D8A7C87A317613DCE1A20C10 /* ReducedQQ */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +98,19 @@
 			name = ReducedQQ;
 			sourceTree = "<group>";
 		};
-		603A0E47BFE6DE0CF381D6E3E9A266E2 /* Products */ = {
+		5FBFAF46916FEAA9477D7C606500919C /* Pods-UWShareAndSingleSignOn */ = {
 			isa = PBXGroup;
 			children = (
-				948DF1A96C06ED3CEF890A5817F814B2 /* libPods-UWShareSingleAndSignOn.a */,
+				0227AE6112B797756E2C13E9E4AF861C /* Pods-UWShareAndSingleSignOn-acknowledgements.markdown */,
+				9607DCA9D00E3D3A80D45D66D1B3ED59 /* Pods-UWShareAndSingleSignOn-acknowledgements.plist */,
+				6C26D7FA5482400C291B2D51B8483F92 /* Pods-UWShareAndSingleSignOn-dummy.m */,
+				492DB70DE704F094CF39F102168258E6 /* Pods-UWShareAndSingleSignOn-frameworks.sh */,
+				DDE12BFAC68E8E3140071D4B0A280B0E /* Pods-UWShareAndSingleSignOn-resources.sh */,
+				51E19E966B13924E65D34AC956C50434 /* Pods-UWShareAndSingleSignOn.debug.xcconfig */,
+				2ECE17C774748F68B49F4158E80E0B17 /* Pods-UWShareAndSingleSignOn.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-UWShareAndSingleSignOn";
+			path = "Target Support Files/Pods-UWShareAndSingleSignOn";
 			sourceTree = "<group>";
 		};
 		6EC64D51F71368FD34928D8172D80925 /* Network */ = {
@@ -114,22 +121,14 @@
 			name = Network;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C96FF02DE8A830E1485EB937A1FA06C6 /* Pods */,
-				603A0E47BFE6DE0CF381D6E3E9A266E2 /* Products */,
-				2334DB51270C646F540D95BDC8C94B31 /* Targets Support Files */,
+				99EEA23592154DCFDA3E3D658C75C307 /* Products */,
+				4E719FCFFA3EEBD9867AEA331D51314F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,19 +149,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9D0D708D81E781FFA480DC24B81AB5AC /* Pods-UWShareSingleAndSignOn */ = {
+		99EEA23592154DCFDA3E3D658C75C307 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACEA98BD500BFFC64CBDE6B0B0F28846 /* Pods-UWShareSingleAndSignOn-acknowledgements.markdown */,
-				2E21BD614F636E8415A2BC57EF1C2F3D /* Pods-UWShareSingleAndSignOn-acknowledgements.plist */,
-				754B1E86564C58056165FC93E7081B6A /* Pods-UWShareSingleAndSignOn-dummy.m */,
-				C7DFD8AB0BB33338D5EA0334B4A87DC7 /* Pods-UWShareSingleAndSignOn-frameworks.sh */,
-				A28A5B92D48514DA646BBD1EF1E11DFA /* Pods-UWShareSingleAndSignOn-resources.sh */,
-				58739EF78617172E1F7E55E72EE1F8C4 /* Pods-UWShareSingleAndSignOn.debug.xcconfig */,
-				D7335ACE1FC452E52F759C4AA788DB27 /* Pods-UWShareSingleAndSignOn.release.xcconfig */,
+				19B35BA458DD98875AE415BEC2C99698 /* libPods-UWShareAndSingleSignOn.a */,
 			);
-			name = "Pods-UWShareSingleAndSignOn";
-			path = "Target Support Files/Pods-UWShareSingleAndSignOn";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A00EAA2D818DA0B67B30F7BA16274114 /* Resources */ = {
@@ -184,7 +176,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -216,6 +208,14 @@
 				AB1D51F5E0D6406E006EEBDAE51D1121 /* Frameworks */,
 			);
 			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		D9B3B31BEFF89C4F32CD285CB261C18E /* Social */ = {
@@ -257,20 +257,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3BE22BD3820A461F4681BA2463A627C /* Pods-UWShareSingleAndSignOn */ = {
+		0119808A6B17BCD7CEA680F5308F6444 /* Pods-UWShareAndSingleSignOn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B52232C26091C15D414FE88771560D6D /* Build configuration list for PBXNativeTarget "Pods-UWShareSingleAndSignOn" */;
+			buildConfigurationList = 1902D649D09378490EDC4387565BDE9A /* Build configuration list for PBXNativeTarget "Pods-UWShareAndSingleSignOn" */;
 			buildPhases = (
-				7C4DA5A33709B3A78B694FCD1544723C /* Sources */,
-				4EBAABD0D26CEDF200A5970543087DA4 /* Frameworks */,
+				2FF562296493650439F768279EC2FB60 /* Sources */,
+				CD0B0D97B1D0B6EE3EC4B9B85D3DE1BB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-UWShareSingleAndSignOn";
-			productName = "Pods-UWShareSingleAndSignOn";
-			productReference = 948DF1A96C06ED3CEF890A5817F814B2 /* libPods-UWShareSingleAndSignOn.a */;
+			name = "Pods-UWShareAndSingleSignOn";
+			productName = "Pods-UWShareAndSingleSignOn";
+			productReference = 19B35BA458DD98875AE415BEC2C99698 /* libPods-UWShareAndSingleSignOn.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -279,7 +279,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -290,32 +290,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 603A0E47BFE6DE0CF381D6E3E9A266E2 /* Products */;
+			productRefGroup = 99EEA23592154DCFDA3E3D658C75C307 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3BE22BD3820A461F4681BA2463A627C /* Pods-UWShareSingleAndSignOn */,
+				0119808A6B17BCD7CEA680F5308F6444 /* Pods-UWShareAndSingleSignOn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C4DA5A33709B3A78B694FCD1544723C /* Sources */ = {
+		2FF562296493650439F768279EC2FB60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE4A119ABDC36417719FCD7277A4F74 /* Pods-UWShareSingleAndSignOn-dummy.m in Sources */,
+				884A80703C60E342736CACE9FC17D9FC /* Pods-UWShareAndSingleSignOn-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -323,10 +324,103 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523206D15FAC3508056B5EF21A184A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E19E966B13924E65D34AC956C50434 /* Pods-UWShareAndSingleSignOn.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C1F6949172E4610C0CF8B287068EF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECE17C774748F68B49F4158E80E0B17 /* Pods-UWShareAndSingleSignOn.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -355,109 +449,23 @@
 			};
 			name = Debug;
 		};
-		0C8033E702F269C3287BD67EC03F5951 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58739EF78617172E1F7E55E72EE1F8C4 /* Pods-UWShareSingleAndSignOn.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		71216CE5AC84F7958B5B0E000E231D6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7335ACE1FC452E52F759C4AA788DB27 /* Pods-UWShareSingleAndSignOn.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1902D649D09378490EDC4387565BDE9A /* Build configuration list for PBXNativeTarget "Pods-UWShareAndSingleSignOn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				523206D15FAC3508056B5EF21A184A0E /* Debug */,
+				5C1F6949172E4610C0CF8B287068EF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B52232C26091C15D414FE88771560D6D /* Build configuration list for PBXNativeTarget "Pods-UWShareSingleAndSignOn" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C8033E702F269C3287BD67EC03F5951 /* Debug */,
-				71216CE5AC84F7958B5B0E000E231D6B /* Release */,
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
